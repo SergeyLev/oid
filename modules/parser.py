@@ -57,7 +57,7 @@ def parser_arguments():
                         metavar="integer number",
                         help='Optional limit on number of images to download')
 
-    parser.add_argument('--dst', required=False, type=int, default=None,
+    parser.add_argument('--dst', required=False, default=None,
                         metavar="path",
                         help='Path To folder where to save images')
 
